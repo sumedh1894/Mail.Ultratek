@@ -1,0 +1,114 @@
+html {
+    font-size: 18px;
+  }
+
+body {
+  height: 100%;
+}
+
+nav {
+  display: block;
+  background: teal !important;
+  background: -webkit-linear-gradient(right, teal, #8ca9c9) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, teal, #8ca9c9) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, teal, #8ca9c9) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(right, teal, #8ca9c9) !important; /* Standard syntax (must be last) */
+}
+
+nav .brand-logo {
+  display: block;
+  color: #444;
+  margin-left: 18px;
+  margin-top: 2px;
+}
+
+.newcolor{
+color: teal
+
+}
+.font1{
+font-size: 30px;
+
+}
+.newfont {
+    font-size: 17px;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+.button-collapse {
+  color: white;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0 !important;
+}
+
+
+#grad1 {
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffa726, #f57c00) no-repeat; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffa726, #f57c00) no-repeat; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffa726, #f57c00) no-repeat; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffa726, #f57c00) no-repeat; /* Standard syntax (must be last) */
+    background-attachment:fixed;
+    height:100%;
+}
+
+i.icon-brown {
+    color: #C05700;
+}
+
+#orangeback {
+  background: orange;
+  background: ##FFA500;
+}
+
+#link {
+  color: #0097a7;
+}
+
+ .top-bar {
+   background-color: #000 !important;
+ }
+ .middle-bar {
+   background-color: #000 !important;
+ }
+ .bottom-bar {
+   background-color: #000 !important;
+ }
